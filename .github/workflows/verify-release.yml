@@ -1,0 +1,51 @@
+name: Verify and publish exact installers
+
+on:
+  repository_dispatch:
+    types: [studio-candidate]
+  workflow_dispatch:
+    inputs:
+      release_id:
+        description: Existing verified draft release ID, for publication retry
+        required: true
+        type: string
+      manifest_sha256:
+        description: Exact manifest SHA-256 printed by the private promotion job
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: distribution-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: >-
+      github.repository == 'CristianMoresi/DSParkStudio' &&
+      github.event.repository.private == false && vars.STUDIO_RELEASE_ENABLED == 'true' &&
+      (github.event_name == 'workflow_dispatch' ||
+       (github.event.sender.type == 'Bot' && github.event.sender.login == vars.STUDIO_PUBLISHER_LOGIN))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      RELEASE_ID: ${{ inputs.release_id || github.event.client_payload.release_id }}
+      MANIFEST_SHA: ${{ inputs.manifest_sha256 || github.event.client_payload.manifest_sha256 }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+      - run: python3 .github/scripts/check_repository.py
+      - run: python3 .github/scripts/test_distribution.py
+      - name: Verify complete uploaded cohort, then publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          python3 .github/scripts/distribution.py promote
+          --release-id "$RELEASE_ID" --manifest-sha256 "$MANIFEST_SHA" --license LICENSE

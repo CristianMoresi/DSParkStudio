@@ -1,0 +1,139 @@
+DSPark Studio License Agreement
+Version 1.0 - 2026-10-15
+
+Copyright (c) 2026 Cristian Moresi. All rights reserved.
+Proprietary software. All rights reserved.
+
+1. Scope
+
+This agreement governs DSPark Studio, including its executables, installer
+utilities, documentation and other proprietary materials (the "Software"),
+owned by Cristian Moresi (the "Owner"). The Software is not open source.
+Separately licensed components are governed by section 6.
+
+"You" means the individual or legal entity using the Software. By installing,
+copying or using the Software under this agreement, you accept its terms.
+If acting for an entity, you must have authority to accept them for it.
+
+2. Free content-production license
+
+The Owner grants you a worldwide, non-exclusive, royalty-free license to
+install and use lawfully obtained official binary builds and their
+documentation to create, edit, analyze, process and deliver content. This
+permission covers individuals, professionals, businesses and organizations,
+for personal and commercial content production, including paid client work.
+There is no revenue threshold, per-output fee or royalty for these uses.
+
+You may copy the binaries and documentation for installation, backup and
+internal deployment on devices you own or control, including use by people
+acting on your behalf under these terms. You may operate the Software
+through general-purpose MCP clients, the CLI, scripts and private internal
+applications for the permitted content-production work. Normal client
+registration, connection instructions and configuration are permitted.
+
+Editing parameters, presets, MIDI, automation and projects through the
+documented interfaces is permitted. It is not a modification of the Software.
+These permissions do not include the product and service uses in section 4.
+
+3. Your content and outputs
+
+You may publish, distribute, sell and otherwise commercially exploit the
+audio, MIDI, project files, analysis reports and parameter-based presets
+you produce with the Software ("Outputs"). This includes music, sample
+packs, podcasts, videos, broadcasts, advertising, game audio and content
+delivered to paying clients. Incorporating Outputs into another product
+is permitted; incorporating the Software is subject to section 4.
+
+The Owner claims no ownership, royalty or mandatory credit in your content
+or Outputs merely because you used the Software. This agreement does not
+grant rights in third-party recordings, samples, compositions or other
+materials, or guarantee that any Output qualifies for copyright protection.
+You remain responsible for obtaining the rights your use requires.
+Software binaries, source code and copied documentation are not Outputs.
+
+4. Products, redistribution and hosted processing
+
+The following require a separate paid license agreed in writing with the
+Owner before they are offered or carried out:
+
+(a) Redistributing, sublicensing, selling, renting or otherwise supplying
+    the Software or copies of it to third parties, except for the internal
+    copies expressly permitted in section 2.
+(b) Bundling, embedding or incorporating the Software into another product,
+    application, plugin, device or distribution; rebranding it; or offering
+    a dedicated wrapper that presents its processing as another product.
+(c) Making the Software's processing capabilities available to third parties
+    through a hosted service, website, API or other processing platform.
+
+These requirements apply whether the product or service is paid or free,
+whether the Software is included or downloaded separately, and whether it
+runs locally or on a server. A separate process or MCP/CLI connection does
+not by itself exempt a product or service from this section.
+
+Using a general-purpose MCP client or private internal automation for your
+own production work remains permitted under section 2. Delivering Outputs
+to clients as part of your creative production work is permitted under
+section 3, including when you automate that work internally. Offering
+third parties access to processing functions as a product or service is
+subject to this section. Merely publishing ordinary connection settings
+for a general-purpose client does not constitute a dedicated wrapper.
+
+No integration, redistribution or hosted-service license is granted by
+requesting a quote or offering payment. Its scope, price and other terms
+must be agreed in writing with the Owner.
+
+5. Reserved rights, source code and identity
+
+Except as expressly granted here, in a separate written agreement or by
+mandatory law, all rights in the Software are reserved. No source-code
+license is granted. Non-public source code, specifications and tests remain
+confidential; access alone does not authorize their use or disclosure.
+
+You may not modify, translate, adapt, reverse engineer, decompile or
+disassemble the Software except as permitted by mandatory law or a separate
+written agreement. Preserve copyright, license and attribution notices in
+all permitted Software copies. No permission is granted to pass off the
+Software as your own or to use the Owner's name, logo or product identity
+to imply endorsement. Accurate identification of the Software is permitted.
+
+This agreement licenses use; it does not transfer ownership of the Software,
+its source code or its brand. Acquiring the project or any ownership rights
+requires a separately negotiated written agreement. An integration license
+does not itself transfer those rights.
+
+6. Separate components and mandatory rights
+
+DSPark, the underlying framework, is separately licensed under MIT. Its
+license and other applicable component notices accompany the relevant
+distribution. This agreement does not replace or restrict rights granted
+by those separate licenses. In particular, it does not prevent independent
+development using DSPark under its own terms.
+
+Nothing in this agreement excludes rights that applicable law does not
+allow a contract to exclude, including applicable rights concerning backup,
+observation, interoperability and consumer protection. Restrictions and
+disclaimers apply only to the extent permitted by that law. If a provision
+is unenforceable, the remaining provisions continue to apply to the extent
+permitted by law.
+
+7. Duration, support and liability
+
+The permissions for a copy supplied under this agreement continue without
+a time limit while you comply with its terms. A later license version does
+not retroactively change those permissions. This agreement does not amend
+separate written agreements or promise future releases, updates, support
+or continued availability of downloads. It does not affect your rights in
+Outputs already lawfully produced.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. TO THAT EXTENT, THE OWNER IS NOT LIABLE FOR CLAIMS,
+DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE. NOTHING
+HERE EXCLUDES LIABILITY OR REMEDIES THAT CANNOT LAWFULLY BE EXCLUDED.
+
+8. Contact
+
+For paid integration, redistribution, hosted-service licensing, acquisition
+or other permissions, contact Cristian Moresi:
+cristianmoresiguitar@gmail.com
