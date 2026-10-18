@@ -54,6 +54,18 @@ processing chains and automation.
 Saved projects retain notes, instruments, routing, effects and automation.
 Ask for a specific revision and continue from where you left off.
 
+### New in 1.1.0
+
+- **Production guidance included.** Studio supplies your agent with task-specific
+  methods for analysis, mixing, mastering, voice treatment, MIDI and sound design.
+  No separate skill installation is needed.
+- **Save your workflow.** Reuse your own synth sounds with their effects,
+  complete processing chains and export recipes alongside factory presets.
+- **Compare before committing.** Preview excerpts with level-matched A/B,
+  group project edits with undo, and isolate individual instrument layers.
+- **Refine the delivery.** Use more precise automation and independent track,
+  bus and master oversampling, then inspect measurements of the exported file.
+
 ## Try these production briefs
 
 Give your agent local files and the sound you want to achieve.
@@ -88,7 +100,7 @@ Voice-keyed sidechain compression keeps the music responsive to speech.
 
 ## Get started
 
-Download DSPark Studio 1.0 for your system:
+Download DSPark Studio 1.1.0 for your system:
 
 | Platform | Download |
 |---|---|
