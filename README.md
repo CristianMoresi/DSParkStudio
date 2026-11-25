@@ -38,14 +38,14 @@ its processing as a hosted service requires a separate paid agreement.
 
 ## What you can do
 
-Explore **50 audio modules and four instrument engines**, with editable
+Explore **54 audio modules and four instrument engines**, with editable
 processing chains and automation.
 
 | Work on | Tools at your agent's disposal |
 |---|---|
-| **Mixing and mastering** | EQ, dynamic and spectral dynamic EQ, adaptive tonal balance, resonance suppression, compression and multiband dynamics, de-essing, denoising, transient shaping, offline leveling and limiting. |
-| **Space and modulation** | Algorithmic and convolution reverbs, clean, tape and bucket-brigade delays, digital and analog chorus, phaser, tremolo and vibrato. |
-| **Character and textures** | Saturation and multiband saturation, tape, tube and transformer processing, lo-fi; pitch shifting and correction, granular effects, spectral freeze, ring modulation and frequency shifting. |
+| **Mixing and mastering** | EQ and dynamic EQ, compression and multiband dynamics, de-essing, denoising, transient shaping, offline leveling and limiting. |
+| **Space and modulation** | Algorithmic and convolution reverbs, delay and ping-pong echoes, chorus with flanging textures, phaser, tremolo and vibrato. |
+| **Character and textures** | Saturation, tape, tube and transformer processing; pitch shifting and correction, granular effects, spectral freeze, ring modulation and frequency shifting. |
 | **MIDI composition** | Author notes, chords, bass lines and drum patterns. Quantize, humanize, shape velocities and import or export `.mid` files. |
 | **Sound design** | Analog, FM and wavetable synthesizers, plus a multi-zone sampler. Start from editable presets or build layered instruments from scratch. |
 | **Arrangement and routing** | Automate levels, pan and effect parameters through the song. Build buses, shared effects, sidechains, stereo doubles and harmonies. |
@@ -54,24 +54,17 @@ processing chains and automation.
 Saved projects retain notes, instruments, routing, effects and automation.
 Ask for a specific revision and continue from where you left off.
 
-### New in 2.0.0
+### New in 1.1.0
 
-- **Built on DSPark 1.9.** Every processor, analyzer and oversampler is now
-  DSPark's own, so Studio sounds and measures exactly as the framework does.
-- **New tools.** Adaptive tonal balance, spectral dynamic EQ, resonance
-  suppression, multiband saturation and lo-fi, plus an analog bucket-brigade
-  chorus and many new controls on the compressor, reverb, delay, EQ and tape.
-- **Oversampling where it belongs.** Each nonlinear module carries its own
-  oversampling, automatic by default. Track, bus and master oversampling
-  remains available for a whole chain.
-- **Measured bars and meter.** Onsets, downbeats and time signature come from
-  DSPark's detectors, and every true-peak figure is one consistent reading.
-
-**Upgrading from 1.x:** projects open and are converted automatically. Nine
-older modules were retired; each insert is replaced by its current equivalent
-and reported when the project opens. Renders differ from 1.x because the
-processing is DSPark 1.9's, notably a fuller algorithmic reverb. Projects saved
-with the new module oversampling need Studio 2.0 or later.
+- **Production guidance included.** Studio supplies your agent with task-specific
+  methods for analysis, mixing, mastering, voice treatment, MIDI and sound design.
+  No separate skill installation is needed.
+- **Save your workflow.** Reuse your own synth sounds with their effects,
+  complete processing chains and export recipes alongside factory presets.
+- **Compare before committing.** Preview excerpts with level-matched A/B,
+  group project edits with undo, and isolate individual instrument layers.
+- **Refine the delivery.** Use more precise automation and independent track,
+  bus and master oversampling, then inspect measurements of the exported file.
 
 ## Try these production briefs
 
@@ -107,7 +100,7 @@ Voice-keyed sidechain compression keeps the music responsive to speech.
 
 ## Get started
 
-Download DSPark Studio 2.0.0 for your system:
+Download DSPark Studio 1.1.0 for your system:
 
 | Platform | Download |
 |---|---|
