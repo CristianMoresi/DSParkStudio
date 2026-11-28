@@ -67,9 +67,11 @@ Ask for a specific revision and continue from where you left off.
 - **Measured bars and meter.** Onsets, downbeats and time signature come from
   DSPark's detectors, and every true-peak figure is one consistent reading.
 - **Installer.** The Windows installer installs into Program Files again
-  and connects Claude Desktop where it now keeps its settings. Since 2.0.2,
-  one AI client whose settings cannot be edited safely is left as it is and
-  reported, and the other clients are still connected.
+  and connects Claude Desktop where it now keeps its settings. When the
+  installer finds an AI client whose settings it cannot edit safely, it
+  leaves them as they are, reports it and still connects the other clients.
+  On Linux it accepts the private-group folders of Fedora-style systems
+  (umask 002) and a home folder behind a link.
 
 **Upgrading from 1.x:** projects open and are converted automatically. Nine
 older modules were retired; each insert is replaced by its current equivalent
@@ -111,7 +113,7 @@ Voice-keyed sidechain compression keeps the music responsive to speech.
 
 ## Get started
 
-Download DSPark Studio 2.0.2 for your system:
+Download DSPark Studio 2.0.3 for your system:
 
 | Platform | Download |
 |---|---|
