@@ -113,7 +113,7 @@ Voice-keyed sidechain compression keeps the music responsive to speech.
 
 ## Get started
 
-Download DSPark Studio 2.0.3 for your system:
+Download DSPark Studio 2.0.4 for your system:
 
 | Platform | Download |
 |---|---|
